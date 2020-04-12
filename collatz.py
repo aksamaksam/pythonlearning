@@ -4,10 +4,7 @@ def collatz(number):
     elif number%2==1:
             number=3*number+1
     return number
-
-
-            
-
+       
 print("Enter a number:")
 
 while True:
